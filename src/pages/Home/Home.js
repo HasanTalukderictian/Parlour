@@ -4,6 +4,11 @@ import faceIcon1 from '../../assets/icons/Group 1372.png';
 import faceIcon2 from '../../assets/icons/Group 1373.png';
 import faceIcon3 from '../../assets/icons/Group 1374.png';
 import skincare from '../../assets/images/scincare.jpg';
+import img1 from '../../assets/images/Ellipse 90.png';
+import img2 from '../../assets/images/Ellipse 91.png';
+import img3 from '../../assets/images/Ellipse 92.png';
+
+
 
 const Home = () => {
     return (
@@ -72,12 +77,69 @@ const Home = () => {
             <section className='bg-amber-100 my-6'>
                <div className='flex my-4 p-20'>
                <div className='mx-5'>
-                    <img className='w-65 h-70' src={skincare} alt="" />
+                    <img className='w-55 h-60' src={skincare} alt="" />
                 </div>
                 <div>
                     <h2 className='text-6xl'>Let us handle your screen <p className='text-secondary text-6xl'> Professionally</p> </h2>
+                    <p className='text-1xl my-3 p-1'>With well written codes, we build amazing apps for <br />
+                    all platforms, mobile and web apps in general ipsum.</p>
+                </div>
+                <div className='grid'>
+                    <div>
+                    <h1 className='text-warning text-6xl my-4'>500+</h1>
+                    <p>Happy Customer</p>
+                    </div>
+                    <div>
+                    <h1 className='text-warning text-6xl my-4'>16+</h1>
+                    <p>Total Service</p>
+                    </div>
                 </div>
                </div>
+            </section>
+
+            <section>
+            <h2 className='text-center text-6xl '>Testimonials</h2>
+                <div className='flex'  >
+                
+                
+
+                    <div className=' card flex-auto mx-4 my-6 py-4 px-4'>
+                       <div m-4 p-4 flex>
+                         <img src={img1} className='w-20 h-23' alt="" />
+                         <h2>Nash Patrik</h2>
+                         <h3>CEO,Manpol</h3>
+                         <p>Lorem, ipsum dolor sit amet consectetur
+                            <br /> adipisicing elit. Qui, delectus!</p>
+                         
+                       
+                    </div>
+                   </div>
+
+                   <div className=' card flex-auto mx-4 my-6 py-4 px-4'>
+                       <div m-4 p-4 flex>
+                         <img src={img2} className='w-20 h-23' alt="" />
+                         <h2>Nash Patrik</h2>
+                         <h3>CEO,Manpol</h3>
+                         <p>Lorem, ipsum dolor sit amet consectetur
+                            <br /> adipisicing elit. Qui, delectus!</p>
+                         
+                       
+                    </div>
+                   </div>
+
+                   <div className=' card flex-auto mx-4 my-6 py-4 px-4'>
+                       <div m-4 p-4 flex>
+                         <img src={img3} className='w-20 h-23' alt="" />
+                         <h2>Nash Patrik</h2>
+                         <h3>CEO,Manpol</h3>
+                         <p>Lorem, ipsum dolor sit amet consectetur
+                            <br /> adipisicing elit. Qui, delectus!</p>
+                        
+                       
+                    </div>
+                   </div>
+
+                </div>
             </section>
         </div>
     );
