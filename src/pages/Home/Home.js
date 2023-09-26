@@ -14,7 +14,7 @@ const Home = () => {
     return (
         <div>
             <section className=' my-4 flex p-8 '>
-                <div className=''>
+                <div className='my-12'>
                     <h2 className='text-6xl text-stone-900'>
                         BEAUTY SALON <br />
                         FOR EVERY WOMAN
@@ -26,7 +26,7 @@ const Home = () => {
                         impedit quas sint totam.</p>
                     <button className="btn btn-large btn-warning">Get ap Appointment</button>
                 </div>
-                <div className='grid bg-indigo-800 mx-8'>
+                <div className='grid bg-indigo-800 mx-8 my-12'>
                     <img className='object-fill h-88 w-96 border-radius-2rem' src={woman} alt="Woman" />
                 </div>
             </section>

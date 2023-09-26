@@ -1,17 +1,18 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 
 const Navbar = () => {
 
     const navOptions = <>
 
-        <li><a>Home</a></li>
+        <li><Link to= '/'>Home</Link></li>
         <li><a>Our Service</a></li>
         <li><a>About </a></li>
     </>
 
     return (
         <>
-            <div className="navbar bg-base-100">
+            <div className="navbar fixed z-20 bg-opacity-30 max-w-screen-xl bg-base-100 mb-5">
                 <div className="navbar-start">
                     <div className="dropdown">
                         <label tabIndex={0} className="btn btn-ghost lg:hidden">
@@ -29,7 +30,7 @@ const Navbar = () => {
                     </ul>
                 </div>
                 <div className="navbar-end">
-                    <a className="btn btn-active btn-secondary">Login</a>
+                    <Link  to="/login" className="btn btn-active btn-secondary">Login</Link>
                 </div>
             </div>
         </>
