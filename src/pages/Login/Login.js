@@ -1,14 +1,18 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import  { faFacebook } from '@fortawesome/free-brands-svg-icons';
+import  { faGoogle } from '@fortawesome/free-brands-svg-icons';
+
 
 
 const Login = () => {
     return (
         <div>
-            
+
             <div className="py-2 my-8 max-w-screen-2xl">
                 <div className="hero-content flex-col lg:flex-row-reverse">
-                   
+
                     <div className="card w-full max-w-sm shadow-2xl bg-base-100">
                         <div className="card-body">
                             <div className="form-control">
@@ -47,6 +51,21 @@ const Login = () => {
                             </div>
                         </div>
                     </div>
+                </div>
+            </div>
+            <div className='justify-center items-center'>
+                <p className='text-center'>--------------------or------------------</p>
+                <div className='flex justify-center items-center my-4'>
+                    <button className="btn ">
+                    <FontAwesomeIcon icon= {faFacebook} />
+                        Continue With Facebook
+                    </button>
+                </div>
+                <div className='flex justify-center items-center my-4 '>
+                    <button className="btn ">
+                    <FontAwesomeIcon  icon= {faGoogle} />
+                        Continue With Google
+                    </button>
                 </div>
             </div>
         </div>

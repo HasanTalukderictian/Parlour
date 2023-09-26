@@ -1,5 +1,6 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
+import imgIcon from '../../../assets/icons/react.png';
 
 const Navbar = () => {
 
@@ -22,6 +23,7 @@ const Navbar = () => {
                              {navOptions}
                         </ul>
                     </div>
+                    <img src={imgIcon} className='w-12 h-10' alt="" />
                     <a className="btn btn-ghost normal-case text-xl">Jerin's Parlour</a>
                 </div>
                 <div className="navbar-center hidden lg:flex">

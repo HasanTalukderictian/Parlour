@@ -69,7 +69,7 @@ const Home = () => {
                     </div>
                   
                 </div>
-                 <div className='justify-center items-center'>
+                 <div className='flex justify-center items-center'>
                     <button className="btn btn-secondary">Explore More</button>
                   </div>
             </section>
@@ -148,16 +148,16 @@ const Home = () => {
                     project, professionally</h2>
                 </div>
                 <div className='justify-center items-center'>
-                <div className='mx-30 py-2'>
+                <div className='flex justify-center items-center mx-30 py-2'>
                 <input type="text" placeholder="Full Name" className="input input-bordered w-full max-w-xs mx-4" />
                 <input type="text" placeholder="Last Name" className="input input-bordered w-full max-w-xs mx-4" />
                 </div>
-                <div className='mx-30 py-2'>
+                <div className=' flex justify-center items-center mx-30 py-2'>
                 <input type="text" placeholder="Email Address" className="input input-bordered w-full max-w-xs mx-4" />
                 <input type="text" placeholder="Phone" className="input input-bordered w-full max-w-xs mx-4" />
                 </div>
 
-                <div className='mx-30 py-2'>
+                <div className='flex justify-center items-center mx-30 py-2'>
                 <textarea className="textarea textarea-bordered  w-full max-w-xs mx-4" placeholder="Your Message"></textarea>
                 </div>
                    <div className='text-center my-4 py-3'> <button className="btn btn-active btn-neutral">Send Message</button></div>
