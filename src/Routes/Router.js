@@ -5,6 +5,7 @@ import {
 import Main from "./Layout/Main";
 import Home from "../pages/Home/Home";
 import Login from "../pages/Login/Login";
+import Services from "../pages/Our Services/Services";
 
 
  
@@ -21,6 +22,10 @@ import Login from "../pages/Login/Login";
         {
             path:'/login',
             element:<Login></Login>
+        },
+        {
+            path:'/service',
+            element:<Services></Services>
         }
       ]
       

@@ -10,7 +10,7 @@ const Login = () => {
     return (
         <div>
 
-            <div className="py-2 my-8 max-w-screen-2xl">
+            <div className="py-2 max-w-screen-2xl">
                 <div className="hero-content flex-col lg:flex-row-reverse">
 
                     <div className="card w-full max-w-sm shadow-2xl bg-base-100">
